@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from "./node_modules/react";
 import styles from "./style";
 // import { ButtonType } from "../../../Constants/Button";
 import { Button, ButtonProps } from "../../Atoms/Button/index"

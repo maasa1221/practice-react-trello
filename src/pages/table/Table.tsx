@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardProps } from "../../Components/Molecules/Card"
+import { Card, CardProps } from "../../Components/Molecules/List"
 import { RouteComponentProps } from 'react-router-dom';
 import { ActionDispatcher } from './Container';
 
