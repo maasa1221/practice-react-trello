@@ -1,4 +1,4 @@
-import * as React from "./node_modules/react";
+import * as React from "react";
 import styles from "./style";
 // import { ButtonType } from "../../../Constants/Button";
 import { Button, ButtonProps } from "../../Atoms/Button/index"
@@ -7,13 +7,13 @@ import { Text, TextProps } from "../../Atoms/Text"
 
 const { StyledDiv, StyledGrid1, StyledGrid2 } = styles;
 
-export interface CardProps {
+export interface ListProps {
   textProps: TextProps;
   buttonProps: ButtonProps;
 
 }
 
-export const Card: React.FC<CardProps> = ({
+export const List: React.FC<ListProps> = ({
   buttonProps, textProps
 }) => (
 
